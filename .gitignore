@@ -1,0 +1,78 @@
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# IDE-specific files
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build directories
+/bin/
+/obj/
+/out/
+/target/
+
+# Dependency directories
+node_modules/
+packages/
+
+# Maven specific
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+
+# Gradle specific
+.gradle/
+build/
+
+# JetBrains IDEs
+*.iml
+*.ipr
+*.iws
+
+# Visual Studio files
+*.vs/
+*.dbmdl
+*.bak
+*.backup
+*.vssscc
+*.vspscc
+*.pdb
+
+# Environment and config files
+.env
+*.config
+appsettings.*.json
+
+# Compiled files
+*.dll
+*.exe
+*.class
+*.jar
+*.war
+*.ear
+
+# Coverage and test results
+coverage/
+*.coverage
+*.coveragexml
+TestResult.xml
+TestResults/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+
+# Other
+*.zip
+*.tar
+*.gz
+*.7z
